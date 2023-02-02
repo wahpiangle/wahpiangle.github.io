@@ -1,7 +1,7 @@
 const table = document.getElementById("csv-table");
 
 async function displayCSV(){
-    const response = await fetch('./output.csv');
+    const response = await fetch('./output_file.csv');
     const data = await response.text();
     const rows = data.split('\n');
     for (let i = 1; i < rows.length; i++) {
