@@ -1,0 +1,46 @@
+body, html{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.page-title{
+    margin: 1rem;
+}
+
+.counter-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter1, .counter2, .counter3, .counter4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+.counter-title{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+button{
+    margin: 1rem;
+    padding: 0.8rem;
+}
+
+nav{
+    display: flex;
+}
+
+#switchBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+button{
+    cursor: pointer;
+}

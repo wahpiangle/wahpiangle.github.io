@@ -1,0 +1,83 @@
+body,html{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-title{
+    margin: 1rem;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+.serving-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 80%;
+    padding: 1rem;
+    row-gap: 1rem;
+}
+
+.counter-container{
+    margin-top: 10rem;
+    display: flex;
+    column-gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter{
+    position: relative;
+    border: 2px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.counter-title{
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.online-status{
+    display: flex;
+    position: absolute;
+    width: 18px;
+    top: 8px;
+    right:8px;
+}
+
+nav{
+    display: flex;
+}
+
+#switchBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.counter1-current-number, .counter2-current-number, .counter3-current-number, .counter4-current-number{
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    margin: 1rem;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+nav{
+    margin-bottom: 1rem;
+}
+
+.now-serving, .last-number{
+    display: flex;
+    gap: 2px;
+}
